@@ -1,0 +1,25 @@
+.chapter span {
+  vertical-align: top;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .facebook-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height: 0;
+  }
+
+  .chapter-holder {
+    width: 90vw;
+  }
+
+  .chapter-holder iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+}
